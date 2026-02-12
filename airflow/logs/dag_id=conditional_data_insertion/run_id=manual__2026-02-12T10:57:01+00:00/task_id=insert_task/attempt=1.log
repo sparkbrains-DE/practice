@@ -1,0 +1,6 @@
+{"timestamp":"2026-02-12T10:57:13.709738Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-12T10:57:13.710448Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sf_conditional.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-12T10:57:14.425362Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/sf_conditional.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-02-12T10:57:14.425925Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/sf_conditional.py","lineno":1,"logger":"py.warnings"}
+{"timestamp":"2026-02-12T10:57:14.453850Z","level":"info","event":"Inserting into existing table","logger":"task.stdout"}
+{"timestamp":"2026-02-12T10:57:14.453836Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":216}
