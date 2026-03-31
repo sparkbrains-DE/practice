@@ -1,0 +1,6 @@
+Scenario 2: Working on a Feature at a Digital Agency
+Title: Branching and Merging a Small Feature
+Real-world context: You work at a web development agency building a marketing website for a client. Your team uses a simple branching model where each developer works on a named feature branch and merges back into main when done.
+Problem statement: You are assigned a task to add a Contact Us section to the homepage. You need to create a branch named feature/contact-section, make your HTML and CSS changes across a few commits, then merge it back into the main branch locally and push the result.
+Setup: Create a new local Git repository using git init. Create a simple index.html file and make an initial commit on main. From there, create your feature branch and begin working. No remote is required for this scenario unless you want to push to GitHub for practice.
+
